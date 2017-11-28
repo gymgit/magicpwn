@@ -1,0 +1,17 @@
+### Primitives/Capabilities
+
+### Vulns
+mutex is copied and not initiated properly (not working)
+heap overflow in append (due to reace condition) (between malloc/memcpys + assigning new count in other thread)
+
+### Exploit
+
+### Notes
+## Menu
+
+## Funcs
+
+### File
+primary: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.24, BuildID[sha1]=c9874ac52a57972315607ccb2f08a686dc1adc80, not stripped
+
+### Checsec

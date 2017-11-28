@@ -1,0 +1,27 @@
+[options]
+#[host]
+TERMINAL="tmux splitw -h"
+#[pwnable]
+# BASE_PATH=~/ctf/challs/
+ARCH=amd64
+BINARY=test/primary/primary
+#RLIBC=hacklu/hos/libc.so.6
+REMOTE_IP=flatearth.fluxfingers.net
+REMOTE_PORT=1748
+# Type can be IO or SOCK
+TYPE=IO
+
+# Leave empty to open GDB in new default terminal
+# OS=linux
+# ENDIAN=little
+# WORD_SIZE=4
+#[vm]
+#VM_PATH=~/ctf/vagrant
+VM_NAME=xenial64
+SSH_IP=192.168.101.10
+SSH_USER=ubuntu
+# VM_NAME=trusty64
+# SSH_IP=192.168.101.11
+# SSH_USER=vagrant
+# If password is set pw based auth will be used
+#SSH_PASS=password

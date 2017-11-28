@@ -1,0 +1,30 @@
+[options]
+TERMINAL="tmux splitw -h"
+BASE_PATH=~/ctf/challs
+ARCH=amd64
+BINARY=test/multithread/app.sh
+#RLIBC=libc.so.6
+REMOTE_IP=127.0.0.1
+REMOTE_PORT=1337
+# Type can be IO or SOCK
+TYPE=IO
+
+#VM_PATH=~/ctf/vagrant
+VM_NAME=xenial64
+SSH_IP=192.168.101.10
+SSH_USER=ubuntu
+
+# VM_NAME=trusty64
+# SSH_IP=192.168.101.11
+# SSH_USER=vagrant
+
+# VM_NAME=zesty64
+# SSH_IP=192.168.101.12
+# SSH_USER=vagrant
+
+# VM_NAME=artful64
+# SSH_IP=192.168.101.13
+# SSH_USER=vagrant
+
+# If password is set pw based auth will be used
+# SSH_PASS=password

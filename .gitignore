@@ -1,0 +1,17 @@
+challs/*
+!challs/solutions
+!challs/templates
+!challs/test
+tools/afl-*
+notes
+*.pyc
+*.idb
+*.i64
+*.idb.*
+*.i64.*
+*.gdb_history
+*.vagrant
+vagrant/share/*
+!vagrant/share/post-update.sh
+vagrant/*/libcs/*
+vagrant/*/sysroot/*
